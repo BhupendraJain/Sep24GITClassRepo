@@ -7,7 +7,7 @@ public with sharing class ChangePasswordController {
     public String verifyNewPassword {get; set;}        
     
     /**
-     * Changes...
+     * Hey! I made some changes below for HF1
      */
     public PageReference changePassword() {
         return Site.changePassword(newPassword, verifyNewPassword, oldpassword);    
